@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>jfunction-javascriptlibrary</title>
+    <style>
+      *{
+      background-color:grey;
+      color:Black
+      }.title{
+      background-color:Black;
+      color:white;
+      }.pattern1{
+      font-family: 'helvetica neue', helvetica, sans-serif;
+      letter-spacing: 1px;
+      }.Orange{
+      color:Orange;
+      }.blue{
+      color:blue;
+      }.header{
+      border: 5px solid #000000;
+      background-color:white;
+      }.circle{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: Black;
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+      color: #fff;
+      font-size: 20px;
+      color: grey;
+      }.Black{
+      color:black;
+      background-color:black;
+      }html{
+      scroll-behavior:smooth;
+      }.right{
+      float:right;
+      }.foot{
+      background-color:DimGrey;
+      }.mokuji{
+      background-color:DimGrey;
+      }.code{
+      background-color: DimGrey;
+      border: 5px solid #000000;
+      font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pattern1" id="p0">
+      <h1 class="header">説明</h1>
+      <h3>目次</h3>
+      <div class="mokuji">
+        <ul>
+          <li>
+            <a href="#p1">
+              <span class="blue">jfunctionについて</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p1.5">
+              <span class="blue">読み込み方</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p2">
+              <span class="blue">このhtmlを作った理由</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p3">
+              <span class="blue">元のホームページのURLは?</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p4">
+              <span class="blue">GitHubでのソースは?</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p5">
+              <span class="blue">関数一覧</span>
+            </a>
+          </li>
+          <li>
+            <a href="#p6">
+              <span class="blue">何なんでこのページ黒いの?</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="pattern1">
+      <div id="p1">
+        <h1 class="title">jfunctionについて</h1>
+        <p>
+          jfunctionはjavascriptライブラリです。<br>
+          いろいろな関数を追加、または書きやすくするライブラリです
+        </p>
+      </div>
+      <div id="p1.5">
+        <h1 class="title">読み込み方</h1>
+        <div>
+          <section>
+            <h2>ファイルから読み込む</h2>
+            <p>
+              下記のリンク(GitHub)などからダウンロードして読み込むか、か
+              <a href="https://github.com/Akawatav/jfunction/">
+                <p>
+                  <span class="blue">GitHub</span>
+                </p>
+              </a>
+              cdnを使って読み込むかのどちらかです
+              <code>
+                <pre class="code">
+                  &lt;script src="https://cdn.jsdelivr.net/gh/Akawatav/jfunction@main/jfunction-v1.0.4.min.js"&gt;</script>
+                </pre>
+              </code>
+            </p>
+          </section>
+        </div>
+      </div>
+      <div id="p2">
+        <h1 class="title">このhtmlを作った理由</h1>
+        <p>
+          <span class="Orange">Q、なぜhtml作ったの?</span>
+          <br>
+          <span class="blue">A、html出来るようになったから GitHubページを作りたかった</span>
+        </p>
+      </div>
+      <div id="p3">
+        <h1 class="title">元のソースコードのURLは?</h1>
+        <a href="https://github.com/Akawatav/jfunction/">
+          <p class="blue">ここ</p> 
+        </a>
+      </div>
+      <div id="p4">
+        <h1 class="title">cdnは?</h1>
+        <p>
+          <a href="https://cdn.jsdelivr.net/gh/Akawatav/jfunction@main/jfunction-v1.0.4.js">
+            <span class="blue">ここ(js)</span>
+          </a>
+          <br>
+          <a href="https://cdn.jsdelivr.net/gh/Akawatav/jfunction@main/jfunction-v1.0.4.min.js">
+            <span class="blue">ここ(min.js)</span>
+          </a>
+        </p>
+      </div>
+      <div id="p5">
+        <h1 class="title">関数一覧</h1>
+        <ul>
+          <li>getRandom(max,min)</li>
+          <li>division(num1,num2)</li>
+          <li>get</li>
+          <li>percent(num1,num2)</li>
+          <li>log(log)</li>
+          <li>query</li>
+          <li>root</li>
+          <li>pass()</li>
+          <li>parse(value)</li>
+          <li>wait(millsec)</li>
+          <li>portion</li>
+          <li>$</li>
+          <li>jfunction</li>
+          <li>changesign</li>
+          <li>absolute</li>
+          <li>minus</li>
+          <li>factorial</li>
+        </ul>
+      </div>
+      <div id="p6">
+        <h1 class="title">なんでこのページ黒いの?</h1>
+        <p>A.作者がダークモードが好きだから</p>
+      </div>
+      <hr class="Black" color="Black">
+      <footer>
+        <a href="#p0" class="circle"style="bottom: 10px; right: 10px;padding: 6px 40px; ">トップに戻る</a>
+        <div style="clear:both;"></div>
+        <div class="foot">
+          <p> 
+            <h1 class="foot">jfunction</h1>
+           <h2 class="foot">
+         v1.0.4<br>
+           </h2>
+            <hr>
+            v1.0.4<br>
+            17関数
+            <br>
+            <br>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
